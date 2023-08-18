@@ -16,6 +16,6 @@ class Siswa extends Model
 
     public function nilai()
     {
-        return $this->hasOne(Nilai::class, 'siswa_id', '_id');
+        return $this->hasMany(Nilai::class, 'siswa_id', '_id');
     }
 }
