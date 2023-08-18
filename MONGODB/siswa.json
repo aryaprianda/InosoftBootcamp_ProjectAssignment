@@ -1,0 +1,18 @@
+{
+    "_id" : ObjectId("64ddc0b3bad868ff53097c67"),
+    "nama" : "Arya Prianda",
+    "tanggal_lahir" : "2000-01-13",
+    "jenis_kelamin" : "L",
+    "kelas_id" : "64ddbecebad868ff53097c66",
+    "updated_at" : ISODate("2023-08-17T06:39:47.535+0000"),
+    "created_at" : ISODate("2023-08-17T06:39:47.535+0000")
+}
+{
+    "_id" : ObjectId("64ddda68bad868ff53097c69"),
+    "nama" : "Daffa Maulana",
+    "tanggal_lahir" : "2002-07-23",
+    "jenis_kelamin" : "L",
+    "kelas_id" : "64ddd285bad868ff53097c68",
+    "updated_at" : ISODate("2023-08-17T08:29:28.735+0000"),
+    "created_at" : ISODate("2023-08-17T08:29:28.735+0000")
+}

@@ -1,0 +1,30 @@
+{
+    "_id" : ObjectId("64dc7d8f9eca24094c02f182"),
+    "migration" : "2014_10_12_000000_create_users_table",
+    "batch" : NumberInt(1)
+}
+{
+    "_id" : ObjectId("64dc7d8f9eca24094c02f183"),
+    "migration" : "2014_10_12_100000_create_password_resets_table",
+    "batch" : NumberInt(1)
+}
+{
+    "_id" : ObjectId("64dc7d8f9eca24094c02f184"),
+    "migration" : "2019_08_19_000000_create_failed_jobs_table",
+    "batch" : NumberInt(1)
+}
+{
+    "_id" : ObjectId("64dc7d909eca24094c02f185"),
+    "migration" : "2019_12_14_000001_create_personal_access_tokens_table",
+    "batch" : NumberInt(1)
+}
+{
+    "_id" : ObjectId("64ddb4effa69f9dc1405f382"),
+    "migration" : "2023_08_17_045653_create_siswas_table",
+    "batch" : NumberInt(2)
+}
+{
+    "_id" : ObjectId("64ddb4effa69f9dc1405f383"),
+    "migration" : "2023_08_17_054906_modify_siswa_collection",
+    "batch" : NumberInt(2)
+}

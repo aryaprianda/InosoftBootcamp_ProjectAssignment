@@ -1,0 +1,40 @@
+{
+    "_id" : ObjectId("64de00072a77960c5e02e423"),
+    "siswa_id" : "64ddda68bad868ff53097c69",
+    "mata_pelajaran" : "Fisika",
+    "latihan_soal" : [
+        "80",
+        "85",
+        "90",
+        "78"
+    ],
+    "ulangan_harian" : [
+        "88",
+        "92"
+    ],
+    "ulangan_tengah_semester" : "87",
+    "ulangan_semester" : "91",
+    "nilai_akhir" : 88.64,
+    "updated_at" : ISODate("2023-08-17T11:09:59.448+0000"),
+    "created_at" : ISODate("2023-08-17T11:09:59.448+0000")
+}
+{
+    "_id" : ObjectId("64de00782a77960c5e02e424"),
+    "siswa_id" : "64ddc0b3bad868ff53097c67",
+    "mata_pelajaran" : "Matematika",
+    "latihan_soal" : [
+        "85",
+        "85",
+        "80",
+        "77"
+    ],
+    "ulangan_harian" : [
+        "84",
+        "95"
+    ],
+    "ulangan_tengah_semester" : "81",
+    "ulangan_semester" : "91",
+    "nilai_akhir" : 86.81,
+    "updated_at" : ISODate("2023-08-17T11:11:52.514+0000"),
+    "created_at" : ISODate("2023-08-17T11:11:52.514+0000")
+}

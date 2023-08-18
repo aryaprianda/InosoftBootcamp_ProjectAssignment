@@ -1,0 +1,16 @@
+{
+    "_id" : ObjectId("64ddbecebad868ff53097c66"),
+    "nama_kelas" : "X IPA 3",
+    "tingkat" : "X",
+    "wali_kelas" : "Galang Al-Fatih",
+    "updated_at" : "2023-08-17T06:31:42.130000Z",
+    "created_at" : "2023-08-17T06:31:42.130000Z"
+}
+{
+    "_id" : ObjectId("64ddd285bad868ff53097c68"),
+    "nama_kelas" : "XII IPS 1",
+    "tingkat" : "XII",
+    "wali_kelas" : "Sujatmiko",
+    "updated_at" : ISODate("2023-08-17T07:55:49.279+0000"),
+    "created_at" : ISODate("2023-08-17T07:55:49.279+0000")
+}
