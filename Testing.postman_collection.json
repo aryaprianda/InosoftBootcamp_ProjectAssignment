@@ -32,7 +32,79 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Kelas",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/kelas/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"kelas",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:34:00 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:34:00 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.29"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Data Ditemukan\",\n    \"data\": [\n        {\n            \"_id\": \"64ddbecebad868ff53097c66\",\n            \"nama_kelas\": \"X IPA 3\",\n            \"tingkat\": \"X\",\n            \"wali_kelas\": \"Galang Al-Fatih\",\n            \"updated_at\": \"2023-08-17T06:31:42.130000Z\",\n            \"created_at\": \"2023-08-17T06:31:42.130000Z\",\n            \"siswa\": [\n                {\n                    \"_id\": \"64ddc0b3bad868ff53097c67\",\n                    \"nama\": \"Arya Prianda\",\n                    \"tanggal_lahir\": \"2000-01-13\",\n                    \"jenis_kelamin\": \"L\",\n                    \"kelas_id\": \"64ddbecebad868ff53097c66\",\n                    \"updated_at\": \"2023-08-17T06:39:47.535000Z\",\n                    \"created_at\": \"2023-08-17T06:39:47.535000Z\"\n                }\n            ]\n        },\n        {\n            \"_id\": \"64ddd285bad868ff53097c68\",\n            \"nama_kelas\": \"XII IPS 1\",\n            \"tingkat\": \"XII\",\n            \"wali_kelas\": \"Sujatmiko\",\n            \"updated_at\": \"2023-08-17T07:55:49.279000Z\",\n            \"created_at\": \"2023-08-17T07:55:49.279000Z\",\n            \"siswa\": [\n                {\n                    \"_id\": \"64ddda68bad868ff53097c69\",\n                    \"nama\": \"Daffa Maulana\",\n                    \"tanggal_lahir\": \"2002-07-23\",\n                    \"jenis_kelamin\": \"L\",\n                    \"kelas_id\": \"64ddd285bad868ff53097c68\",\n                    \"updated_at\": \"2023-08-17T08:29:28.735000Z\",\n                    \"created_at\": \"2023-08-17T08:29:28.735000Z\"\n                }\n            ]\n        }\n    ]\n}"
+				}
+			]
 		},
 		{
 			"name": "Kelas id",
@@ -53,7 +125,75 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Kelas id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/kelas/64ddbecebad868ff53097c66",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"kelas",
+								"64ddbecebad868ff53097c66"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:37:11 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:37:11 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.29"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Data Ditemukan\",\n    \"data\": {\n        \"_id\": \"64ddbecebad868ff53097c66\",\n        \"nama_kelas\": \"X IPA 3\",\n        \"tingkat\": \"X\",\n        \"wali_kelas\": \"Galang Al-Fatih\",\n        \"updated_at\": \"2023-08-17T06:31:42.130000Z\",\n        \"created_at\": \"2023-08-17T06:31:42.130000Z\"\n    }\n}"
+				}
+			]
 		},
 		{
 			"name": "Kelas",
@@ -94,7 +234,95 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Kelas",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "nama_kelas",
+									"value": "XI IPA 1",
+									"type": "text"
+								},
+								{
+									"key": "tingkat",
+									"value": "XI",
+									"type": "text"
+								},
+								{
+									"key": "wali_kelas",
+									"value": "Hasnan Basuki",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/kelas/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"kelas",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:37:18 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:37:18 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.29"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Memasukan Data Sukses\"\n}"
+				}
+			]
 		},
 		{
 			"name": "Kelas",
@@ -122,7 +350,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8000/api/kelas/64defdc02a77960c5e02e425",
+					"raw": "http://localhost:8000/api/kelas/64df65fe87dd844cf5097544",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -131,11 +359,99 @@
 					"path": [
 						"api",
 						"kelas",
-						"64defdc02a77960c5e02e425"
+						"64df65fe87dd844cf5097544"
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Kelas",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nama_kelas",
+									"value": "X IPA 1",
+									"type": "text"
+								},
+								{
+									"key": "tingkat",
+									"value": "X",
+									"type": "text"
+								},
+								{
+									"key": "wali_kelas",
+									"value": "Eko Kurniawan",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/kelas/64df65fe87dd844cf5097544",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"kelas",
+								"64df65fe87dd844cf5097544"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:38:04 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:38:04 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.29"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "55"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Update Data Sukses\"\n}"
+				}
+			]
 		},
 		{
 			"name": "Kelas",
@@ -143,7 +459,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/api/kelas/64defdc02a77960c5e02e425",
+					"raw": "http://localhost:8000/api/kelas/64df65fe87dd844cf5097544",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -152,11 +468,79 @@
 					"path": [
 						"api",
 						"kelas",
-						"64defdc02a77960c5e02e425"
+						"64df65fe87dd844cf5097544"
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Kelas",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/kelas/64df65fe87dd844cf5097544",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"kelas",
+								"64df65fe87dd844cf5097544"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:38:34 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:38:34 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.29"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Delete Data Sukses\"\n}"
+				}
+			]
 		},
 		{
 			"name": "Siswa",
@@ -177,7 +561,75 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Siswa",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/siswa/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"siswa",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:38:47 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:38:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.29"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Data Ditemukan\",\n    \"data\": [\n        {\n            \"_id\": \"64ddc0b3bad868ff53097c67\",\n            \"nama\": \"Arya Prianda\",\n            \"tanggal_lahir\": \"2000-01-13\",\n            \"jenis_kelamin\": \"L\",\n            \"kelas_id\": \"64ddbecebad868ff53097c66\",\n            \"updated_at\": \"2023-08-17T06:39:47.535000Z\",\n            \"created_at\": \"2023-08-17T06:39:47.535000Z\",\n            \"kelas\": {\n                \"_id\": \"64ddbecebad868ff53097c66\",\n                \"nama_kelas\": \"X IPA 3\",\n                \"tingkat\": \"X\",\n                \"wali_kelas\": \"Galang Al-Fatih\",\n                \"updated_at\": \"2023-08-17T06:31:42.130000Z\",\n                \"created_at\": \"2023-08-17T06:31:42.130000Z\"\n            }\n        },\n        {\n            \"_id\": \"64ddda68bad868ff53097c69\",\n            \"nama\": \"Daffa Maulana\",\n            \"tanggal_lahir\": \"2002-07-23\",\n            \"jenis_kelamin\": \"L\",\n            \"kelas_id\": \"64ddd285bad868ff53097c68\",\n            \"updated_at\": \"2023-08-17T08:29:28.735000Z\",\n            \"created_at\": \"2023-08-17T08:29:28.735000Z\",\n            \"kelas\": {\n                \"_id\": \"64ddd285bad868ff53097c68\",\n                \"nama_kelas\": \"XII IPS 1\",\n                \"tingkat\": \"XII\",\n                \"wali_kelas\": \"Sujatmiko\",\n                \"updated_at\": \"2023-08-17T07:55:49.279000Z\",\n                \"created_at\": \"2023-08-17T07:55:49.279000Z\"\n            }\n        }\n    ]\n}"
+				}
+			]
 		},
 		{
 			"name": "SIswa id",
@@ -198,7 +650,75 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "SIswa id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/siswa/64ddc0b3bad868ff53097c67",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"siswa",
+								"64ddc0b3bad868ff53097c67"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:39:25 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:39:25 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.29"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "57"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Data Siswa Ditemukan\",\n    \"data\": {\n        \"_id\": \"64ddc0b3bad868ff53097c67\",\n        \"nama\": \"Arya Prianda\",\n        \"tanggal_lahir\": \"2000-01-13\",\n        \"jenis_kelamin\": \"L\",\n        \"kelas_id\": \"64ddbecebad868ff53097c66\",\n        \"updated_at\": \"2023-08-17T06:39:47.535000Z\",\n        \"created_at\": \"2023-08-17T06:39:47.535000Z\",\n        \"nilai\": [\n            {\n                \"_id\": \"64de00782a77960c5e02e424\",\n                \"siswa_id\": \"64ddc0b3bad868ff53097c67\",\n                \"mata_pelajaran\": \"Matematika\",\n                \"latihan_soal\": [\n                    \"85\",\n                    \"85\",\n                    \"80\",\n                    \"77\"\n                ],\n                \"ulangan_harian\": [\n                    \"84\",\n                    \"95\"\n                ],\n                \"ulangan_tengah_semester\": \"81\",\n                \"ulangan_semester\": \"91\",\n                \"nilai_akhir\": 86.81,\n                \"updated_at\": \"2023-08-17T11:11:52.514000Z\",\n                \"created_at\": \"2023-08-17T11:11:52.514000Z\"\n            }\n        ]\n    }\n}"
+				}
+			]
 		},
 		{
 			"name": "Siswa",
@@ -244,7 +764,100 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Siswa",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "nama",
+									"value": "Jhon Doe",
+									"type": "text"
+								},
+								{
+									"key": "tanggal_lahir",
+									"value": "1998-08-08",
+									"type": "text"
+								},
+								{
+									"key": "jenis_kelamin",
+									"value": "L",
+									"type": "text"
+								},
+								{
+									"key": "kelas_id",
+									"value": "64ddbecebad868ff53097c66",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/siswa/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"siswa",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:39:39 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:39:39 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.29"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Memasukan Data Sukses\"\n}"
+				}
+			]
 		},
 		{
 			"name": "Siswa",
@@ -256,7 +869,7 @@
 					"urlencoded": [
 						{
 							"key": "nama",
-							"value": "Jhon Robert",
+							"value": "Kris Jhon",
 							"type": "text"
 						},
 						{
@@ -277,7 +890,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8000/api/siswa/64df59e887dd844cf5097542",
+					"raw": "http://localhost:8000/api/siswa/64ddda68bad868ff53097c69",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -286,14 +899,107 @@
 					"path": [
 						"api",
 						"siswa",
-						"64df59e887dd844cf5097542"
+						"64ddda68bad868ff53097c69"
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Siswa",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nama",
+									"value": "Kris Jhon",
+									"type": "text"
+								},
+								{
+									"key": "tanggal_lahir",
+									"value": "2000-01-01",
+									"type": "text"
+								},
+								{
+									"key": "jenis_kelamin",
+									"value": "L",
+									"type": "text"
+								},
+								{
+									"key": "kelas_id",
+									"value": "64ddd285bad868ff53097c68",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/siswa/64ddda68bad868ff53097c69",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"siswa",
+								"64ddda68bad868ff53097c69"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:40:30 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:40:30 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.29"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "56"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Update Data Sukses\"\n}"
+				}
+			]
 		},
 		{
-			"name": "Siswa Copy",
+			"name": "Siswa",
 			"request": {
 				"method": "DELETE",
 				"header": [],
@@ -302,7 +1008,7 @@
 					"urlencoded": []
 				},
 				"url": {
-					"raw": "http://localhost:8000/api/siswa/64df59e887dd844cf5097542",
+					"raw": "http://localhost:8000/api/siswa/64ddda68bad868ff53097c69",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -311,11 +1017,83 @@
 					"path": [
 						"api",
 						"siswa",
-						"64df59e887dd844cf5097542"
+						"64ddda68bad868ff53097c69"
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Siswa",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/siswa/64ddda68bad868ff53097c69",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"siswa",
+								"64ddda68bad868ff53097c69"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:41:18 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:41:18 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.29"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Delete Data Sukses\"\n}"
+				}
+			]
 		},
 		{
 			"name": "Nilai Siswa",
@@ -337,7 +1115,76 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Nilai Siswa",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/siswa/64ddc0b3bad868ff53097c67/nilai",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"siswa",
+								"64ddc0b3bad868ff53097c67",
+								"nilai"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:41:26 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:41:26 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.29"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Data Nilai Siswa Ditemukan\",\n    \"siswa\": {\n        \"_id\": \"64ddc0b3bad868ff53097c67\",\n        \"nama\": \"Arya Prianda\",\n        \"tanggal_lahir\": \"2000-01-13\",\n        \"jenis_kelamin\": \"L\",\n        \"kelas_id\": \"64ddbecebad868ff53097c66\",\n        \"updated_at\": \"2023-08-17T06:39:47.535000Z\",\n        \"created_at\": \"2023-08-17T06:39:47.535000Z\"\n    },\n    \"data\": [\n        {\n            \"_id\": \"64de00782a77960c5e02e424\",\n            \"siswa_id\": \"64ddc0b3bad868ff53097c67\",\n            \"mata_pelajaran\": \"Matematika\",\n            \"latihan_soal\": [\n                \"85\",\n                \"85\",\n                \"80\",\n                \"77\"\n            ],\n            \"ulangan_harian\": [\n                \"84\",\n                \"95\"\n            ],\n            \"ulangan_tengah_semester\": \"81\",\n            \"ulangan_semester\": \"91\",\n            \"nilai_akhir\": 86.81,\n            \"updated_at\": \"2023-08-17T11:11:52.514000Z\",\n            \"created_at\": \"2023-08-17T11:11:52.514000Z\"\n        }\n    ]\n}"
+				}
+			]
 		},
 		{
 			"name": "Nilai id",
@@ -358,7 +1205,75 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Nilai id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/nilai/64de00782a77960c5e02e424",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"nilai",
+								"64de00782a77960c5e02e424"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:41:39 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:41:39 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.29"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "57"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Data Nilai Ditemukan\",\n    \"data\": {\n        \"_id\": \"64de00782a77960c5e02e424\",\n        \"siswa_id\": \"64ddc0b3bad868ff53097c67\",\n        \"mata_pelajaran\": \"Matematika\",\n        \"latihan_soal\": [\n            \"85\",\n            \"85\",\n            \"80\",\n            \"77\"\n        ],\n        \"ulangan_harian\": [\n            \"84\",\n            \"95\"\n        ],\n        \"ulangan_tengah_semester\": \"81\",\n        \"ulangan_semester\": \"91\",\n        \"nilai_akhir\": 86.81,\n        \"updated_at\": \"2023-08-17T11:11:52.514000Z\",\n        \"created_at\": \"2023-08-17T11:11:52.514000Z\"\n    }\n}"
+				}
+			]
 		},
 		{
 			"name": "Nilai",
@@ -434,7 +1349,130 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Nilai",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "siswa_id",
+									"value": "64ddc0b3bad868ff53097c67",
+									"type": "text"
+								},
+								{
+									"key": "mata_pelajaran",
+									"value": "Sejarah",
+									"type": "text"
+								},
+								{
+									"key": "latihan_soal[0]",
+									"value": "78",
+									"type": "text"
+								},
+								{
+									"key": "latihan_soal[1]",
+									"value": "80",
+									"type": "text"
+								},
+								{
+									"key": "latihan_soal[2]",
+									"value": "75",
+									"type": "text"
+								},
+								{
+									"key": "latihan_soal[3]",
+									"value": "79",
+									"type": "text"
+								},
+								{
+									"key": "ulangan_harian[0]",
+									"value": "83",
+									"type": "text"
+								},
+								{
+									"key": "ulangan_harian[1]",
+									"value": "85",
+									"type": "text"
+								},
+								{
+									"key": "ulangan_tengah_semester",
+									"value": "80",
+									"type": "text"
+								},
+								{
+									"key": "ulangan_semester",
+									"value": "86",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/nilai/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"nilai",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:41:55 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:41:55 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.29"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "56"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Memasukan Data Sukses\"\n}"
+				}
+			]
 		},
 		{
 			"name": "Nilai",
@@ -442,7 +1480,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/api/nilai/64df5ca887dd844cf5097543",
+					"raw": "http://localhost:8000/api/nilai/64df671387dd844cf5097546",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -451,11 +1489,79 @@
 					"path": [
 						"api",
 						"nilai",
-						"64df5ca887dd844cf5097543"
+						"64df671387dd844cf5097546"
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Nilai",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/nilai/64df671387dd844cf5097546",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"nilai",
+								"64df671387dd844cf5097546"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:42:37 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Aug 2023 12:42:37 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.0.29"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Delete Data Sukses\"\n}"
+				}
+			]
 		}
 	]
 }
