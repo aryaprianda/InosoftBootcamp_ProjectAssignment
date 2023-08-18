@@ -1,0 +1,461 @@
+{
+	"info": {
+		"_postman_id": "383c4b68-46b2-4c35-945b-22cd485bac77",
+		"name": "Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29133488"
+	},
+	"item": [
+		{
+			"name": "Kelas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/kelas/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"kelas",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Kelas id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/kelas/64ddbecebad868ff53097c66",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"kelas",
+						"64ddbecebad868ff53097c66"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Kelas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nama_kelas",
+							"value": "XI IPA 1",
+							"type": "text"
+						},
+						{
+							"key": "tingkat",
+							"value": "XI",
+							"type": "text"
+						},
+						{
+							"key": "wali_kelas",
+							"value": "Hasnan Basuki",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/kelas/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"kelas",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Kelas",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nama_kelas",
+							"value": "X IPA 1",
+							"type": "text"
+						},
+						{
+							"key": "tingkat",
+							"value": "X",
+							"type": "text"
+						},
+						{
+							"key": "wali_kelas",
+							"value": "Eko Kurniawan",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/kelas/64defdc02a77960c5e02e425",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"kelas",
+						"64defdc02a77960c5e02e425"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Kelas",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/kelas/64defdc02a77960c5e02e425",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"kelas",
+						"64defdc02a77960c5e02e425"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Siswa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/siswa/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"siswa",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SIswa id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/siswa/64ddc0b3bad868ff53097c67",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"siswa",
+						"64ddc0b3bad868ff53097c67"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Siswa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nama",
+							"value": "Jhon Doe",
+							"type": "text"
+						},
+						{
+							"key": "tanggal_lahir",
+							"value": "1998-08-08",
+							"type": "text"
+						},
+						{
+							"key": "jenis_kelamin",
+							"value": "L",
+							"type": "text"
+						},
+						{
+							"key": "kelas_id",
+							"value": "64ddbecebad868ff53097c66",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/siswa/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"siswa",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Siswa",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nama",
+							"value": "Jhon Robert",
+							"type": "text"
+						},
+						{
+							"key": "tanggal_lahir",
+							"value": "2000-01-01",
+							"type": "text"
+						},
+						{
+							"key": "jenis_kelamin",
+							"value": "L",
+							"type": "text"
+						},
+						{
+							"key": "kelas_id",
+							"value": "64ddd285bad868ff53097c68",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/siswa/64df59e887dd844cf5097542",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"siswa",
+						"64df59e887dd844cf5097542"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Siswa Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/siswa/64df59e887dd844cf5097542",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"siswa",
+						"64df59e887dd844cf5097542"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Nilai Siswa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/siswa/64ddc0b3bad868ff53097c67/nilai",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"siswa",
+						"64ddc0b3bad868ff53097c67",
+						"nilai"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Nilai id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/nilai/64de00782a77960c5e02e424",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"nilai",
+						"64de00782a77960c5e02e424"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Nilai",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "siswa_id",
+							"value": "64ddc0b3bad868ff53097c67",
+							"type": "text"
+						},
+						{
+							"key": "mata_pelajaran",
+							"value": "Sejarah",
+							"type": "text"
+						},
+						{
+							"key": "latihan_soal[0]",
+							"value": "78",
+							"type": "text"
+						},
+						{
+							"key": "latihan_soal[1]",
+							"value": "80",
+							"type": "text"
+						},
+						{
+							"key": "latihan_soal[2]",
+							"value": "75",
+							"type": "text"
+						},
+						{
+							"key": "latihan_soal[3]",
+							"value": "79",
+							"type": "text"
+						},
+						{
+							"key": "ulangan_harian[0]",
+							"value": "83",
+							"type": "text"
+						},
+						{
+							"key": "ulangan_harian[1]",
+							"value": "85",
+							"type": "text"
+						},
+						{
+							"key": "ulangan_tengah_semester",
+							"value": "80",
+							"type": "text"
+						},
+						{
+							"key": "ulangan_semester",
+							"value": "86",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/nilai/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"nilai",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Nilai",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/nilai/64df5ca887dd844cf5097543",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"nilai",
+						"64df5ca887dd844cf5097543"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
