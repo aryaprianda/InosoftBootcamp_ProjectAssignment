@@ -113,5 +113,22 @@ class NilaiController extends Controller
         ], 201);
     }
 
+    public function destroy($id)
+    {
+        $dataNilai = Nilai::find($id);
+        if(empty($dataNilai)){
+            return response()->json([
+                'status' => false,
+                'message' => 'Data Tidak Ditemukan'
+            ], 404);
+        }
+
+        $post = $dataNilai->delete();
+
+        return response()->json([
+            'status' => true,
+            'message' => 'Delete Data Sukses',
+        ]);
+    }
 
 }

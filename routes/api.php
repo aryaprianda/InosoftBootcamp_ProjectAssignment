@@ -36,7 +36,7 @@ Route::delete('kelas/{id}',[KelasController::class,'destroy']);
 Route::get('siswa/{siswaId}/nilai', [NilaiController::class, 'showSiswaNilai']);
 Route::get('nilai/{id}', [NilaiController::class, 'showMataPelajaran']);
 Route::post('nilai', [NilaiController::class, 'store']);
-
+Route::delete('nilai/{id}', [NilaiController::class, 'destroy']);
 
 
 
